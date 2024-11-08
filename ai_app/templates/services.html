@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/services.css'%}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    {% include 'header.html' %}
+    <section id="mainSection">
+
+        <section class="serviceImageContener">
+            <img src="{% static 'images/main.jpg'%}" alt="">
+            <div class="content">
+                <h3>
+                    Our services
+                </h3>
+                <h1>What We Do</h1>
+            </div>
+        </section>
+
+        <section class="serviceMidHeding">
+            <div class="content">
+                <h3>Our Services</h3>
+                <h1>We provide a wide range of creative services</h1>
+            </div>
+        </section>
+
+        <div class="flex-container"> <!-- Services -->
+            <div class="flex-item bg-one tilt">
+                <a href="#nothing"> <span><img src="{% static 'images/web.svg'%}"></span>
+                    <div class="text">
+                        <h1> Web Development</h1>
+                        <p>Professional web development services that bring your vision to life. Specializing in
+                            responsive, modern websites with HTML, CSS, JavaScript, and React.js, we deliver
+                            user-friendly, visually appealing digital experiences</p>
+                    </div>
+
+                </a>
+            </div>
+            <div class="flex-item bg-two tilt">
+                <a href="#nothing"> <span><img src="{% static 'images/analysis.png'%}"></span>
+                    <div class="text">
+                        <h1>Data Analysis</h1>
+                        <p>Transform data into actionable insights with our expert analysis services. Using advanced
+                            tools and techniques, we help businesses make data-driven decisions for growth, efficiency,
+                            and strategic success.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="flex-item bg-three tilt">
+                <a href="#nothing"> <span><img src="{% static 'images/andorid.png'%}"></span>
+                    <div class="text">
+                        <h1>Andorid Development</h1>
+                        <p>Build high-performance Android apps tailored to your needs. Our development services focus on
+                            user-friendly interfaces, seamless functionality, and innovative features to deliver
+                            exceptional mobile experiences on every device.</p>
+                    </div>
+
+                </a>
+            </div>
+            <div class="flex-item bg-three tilt">
+                <a href="#nothing"> <span><img src="{% static 'images/software.png'%}"></span>
+                    <div class="text">
+                        <h1>Software Development</h1>
+                        <p>Comprehensive software development services tailored to your business needs. From design to
+                            deployment, we build scalable, high-quality solutions that enhance efficiency, drive growth,
+                            and adapt to future demands</p>
+                    </div>
+
+                </a>
+            </div>
+            <div class="flex-item bg-three tilt">
+                <a href="#nothing"> <span><img src="{% static 'images/ios.png'%}"></span>
+                    <div class="text">
+                        <h1>Ios Development</h1>
+                        <p>Specialized iOS development for sleek, high-performing apps. We craft intuitive, secure, and
+                            scalable iOS solutions that provide seamless user experiences across all Apple devices</p>
+                    </div>
+
+                </a>
+            </div>
+            <div class="flex-item bg-three tilt">
+                <a href="#nothing"> <span><img src="{% static 'images/CMS.svg'%}"></span>
+                    <div class="text">
+                        <h1>Content Management Systems (CMS)</h1>
+                        <p>Streamlined CMS solutions to easily manage your content. We build customized, user-friendly
+                            platforms that empower you to update, organize, and scale your content effortlessly.</p>
+                    </div>
+
+                </a>
+            </div>
+            <div class="flex-item bg-three tilt">
+                <a href="#nothing"> <span><img src="{% static 'images/devops.png'%}"></span>
+                    <div class="text">
+                        <h1> DevOps</h1>
+                        <p>Optimize development and operations with our DevOps services. We implement automation,
+                            continuous integration, and efficient workflows to enhance deployment speed, reliability,
+                            and scalability for your projects</p>
+                    </div>
+
+                </a>
+            </div>
+            <div class="flex-item bg-three tilt">
+                <a href="#nothing"> <span><img src="{% static 'images/system.png'%}"></span>
+                    <div class="text">
+                        <h1>Systems Integration</h1>
+                        <p>
+                            Seamless systems integration services to unify your business operations. We connect diverse
+                            applications and platforms, enhancing efficiency, data flow, and functionality across your
+                            entire infrastructure
+                        </p>
+                    </div>
+
+                </a>
+            </div>
+            <div class="flex-item bg-three tilt">
+                <a href="#nothing"> <span><img src="{% static 'images/cybersecurity.png'%}"></span>
+                    <div class="text">
+                        <h1>Cyber Security</h1>
+                        <p>Comprehensive cybersecurity solutions to protect your digital assets. We offer advanced
+                            threat detection, data protection, and risk management strategies to safeguard your business
+                            against evolving cyber threats</p>
+                    </div>
+
+                </a>
+            </div>
+            <div class="flex-item bg-three tilt">
+                <a href="#nothing"> <span><img src="{% static 'images/cloud.png'%}"></span>
+                    <div class="text">
+                        <h1>Cloud</h1>
+                        <p>Transform your business with our cloud services. We provide scalable cloud solutions,
+                            including migration, management, and optimization, to enhance flexibility, reduce costs, and
+                            support growth.</p>
+                    </div>
+
+                </a>
+            </div>
+            <div class="flex-item bg-three tilt">
+                <a href="#nothing"> <span><img src="{% static 'images/bigdata.png'%}"></span>
+                    <div class="text">
+                        <h1>Big Data</h1>
+                        <p>Unlock the power of Big Data with our analytics solutions. We help you collect, process, and
+                            interpret vast data sets to drive informed decisions, innovation, and strategic growth.</p>
+                    </div>
+
+                </a>
+            </div>
+            <div class="flex-item bg-three tilt">
+                <a href="#nothing"> <span><img src="{% static 'images/blockchain.png'%}"></span>
+                    <div class="text">
+                        <h1>Blockchain</h1>
+                        <p>Leverage blockchain technology for secure, transparent, and efficient solutions. We offer
+                            custom blockchain development to streamline operations, enhance data integrity, and enable
+                            decentralized applications.</p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+</body>
+{% include 'footer.html'%}
+</html>
